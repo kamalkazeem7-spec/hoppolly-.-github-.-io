@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official HOPPOLLY artist website. Music, videos, latest releases and updates.">
+  <title>HOPPOLLY | Official Artist Website</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080808;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background:
+        radial-gradient(circle at top, #252525 0%, #0b0b0b 45%, #050505 100%);
+    }
+
+    .hero {
+      max-width: 850px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 18px;
+      border: 1px solid #555;
+      border-radius: 30px;
+      margin-bottom: 25px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(60px, 15vw, 140px);
+      letter-spacing: 8px;
+      line-height: 0.95;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      color: #bdbdbd;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 35px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      padding: 14px 25px;
+      border-radius: 30px;
+      border: 1px solid #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(5,5,5,0.95);
+      border-bottom: 1px solid #222;
+      padding: 16px 20px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 12px;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 90px 20px;
+    }
+
+    .section-title {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .line {
+      width: 60px;
+      height: 3px;
+      background: white;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      color: #c8c8c8;
+      font-size: 18px;
+      max-width: 750px;
+    }
+
+    .release {
+      border: 1px solid #292929;
+      border-radius: 18px;
+      padding: 30px;
+      background: #111;
+      margin-top: 30px;
+    }
+
+    .release h3 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .release p {
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    .socials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .social {
+      border: 1px solid #292929;
+      background: #111;
+      padding: 22px;
+      border-radius: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .social:hover {
+      transform: translateY(-4px);
+      border-color: #777;
+    }
+
+    .social strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .social span {
+      color: #999;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #222;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin: 0 6px;
+        font-size: 12px;
+      }
+
+      section {
+        padding: 65px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <div class="tag">Official Artist Website</div>
+
+      <h1>HOPPOLLY</h1>
+
+      <p>
+        Music, creativity and a sound of his own.
+        Welcome to the official home of HOPPOLLY.
+      </p>
+
+      <div class="buttons">
+        <a class="button" href="#music">Listen to Music</a>
+        <a class="button" href="#contact">Follow HOPPOLLY</a>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">ABOUT</a>
+    <a href="#music">MUSIC</a>
+    <a href="#videos">VIDEOS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About HOPPOLLY</h2>
+    <div class="line"></div>
+
+    <p class="about">
+      HOPPOLLY is an independent music artist building a unique identity
+      through music and visual creativity. This is the official website
+      for HOPPOLLY, featuring music, videos, releases and official links.
+    </p>
+  </section>
+
+  <section id="music">
+    <h2 class="section-title">Music</h2>
+    <div class="line"></div>
+
+    <div class="release">
+      <h3>Latest Music</h3>
+      <p>
+        Listen to HOPPOLLY's music on Audiomack.
+      </p>
+
+      <a class="button"
+         href="https://audiomack.com/hoppolly"
+         target="_blank">
+        Listen on Audiomack
+      </a>
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2 class="section-title">Videos</h2>
+    <div class="line"></div>
+
+    <div class="release">
+      <h3>HOPPOLLY on YouTube</h3>
+      <p>
+        Watch official videos, music and new content on the
+        HOPPOLLY YouTube channel.
+      </p>
+
+      <a class="button"
+         href="https://youtube.com/@hoppolly"
+         target="_blank">
+        Visit YouTube
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Official Links</h2>
+    <div class="line"></div>
+
+    <div class="socials">
+
+      <a class="social"
+         href="https://youtube.com/@hoppolly"
+         target="_blank">
+        <strong>YouTube</strong>
+        <span>@hoppolly</span>
+      </a>
+
+      <a class="social"
+         href="https://audiomack.com/hoppolly"
+         target="_blank">
+        <strong>Audiomack</strong>
+        <span>HOPPOLLY</span>
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2026 HOPPOLLY. All rights reserved.
+    <br>
+    Official HOPPOLLY Artist Website.
+  </footer>
+
+</body>
+  </html>
